@@ -3,7 +3,8 @@
 mkdir /tmp/drone
 mkdir /tmp/drone/src
 mkdir /tmp/drone/src/sub
-touch /tmp/drone/src/sub/test.nupkg
+touch /tmp/drone/src/sub/test1.nupkg
+touch /tmp/drone/src/sub/test2.nupkg
 
 docker run --rm \
   -v /tmp/drone/src:/drone/src \
